@@ -1,0 +1,367 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Klavika Bold";
+}
+
+
+
+.container{
+
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+
+.clear{
+
+	clear: both;
+}
+
+
+header{
+
+	background-color: #3a54b0;
+	padding: 12px 0;
+	display: flex;
+}
+
+
+.logo{
+	color: white;
+	float: left;
+	margin-top: 25px;
+}
+
+.logo h2{
+
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.form-login{
+	float: right;
+}
+
+.form-login .login{
+
+	display: inline-block;
+	margin-right: 15px;
+
+}
+
+
+.form-login .login p{
+
+	color: white;
+	margin-bottom: 3px;
+}
+
+
+.form-login .login .b1{
+	margin-top: 5px; 
+	color: #C9C9C9;
+	font-size: 13px;
+}
+
+header .ent{
+	float: right;
+	margin-top: 20px;
+}
+
+header .ent input[type=submit]{
+	cursor: pointer;
+        border:0;
+        border:2px solid #2645b5;
+        background: #3a5cd6;
+        color: white;
+        padding: 3px 5px;
+}
+
+header .ent input[type=submit]:hover{
+		background:#2645b5;
+}
+
+
+section .container2{
+
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+}
+
+section .child{
+
+	width: 50%;
+	height: 800px;
+
+}
+
+
+
+.imagen{
+
+	
+	
+	
+}
+
+.imagen img{
+
+	
+}
+
+.parte2{
+
+	padding: 30px;
+	margin-top: 20px;
+
+	
+}
+
+.parte2 h3{
+	font-size: 35px;
+	color: #12092F;
+}
+
+.parte2 h4{
+	font-size: 20px;
+	color: #12092F;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.parte2 .for1{
+	display: flex;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: 5px;
+
+}
+
+.parte2 .for1 input[type=text]{
+	margin-right: 5px;
+	height: 30px;
+	padding: 15px;
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.parte2 .for2{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.parte2 .for2 input[type=email],
+.parte2 .for2 input[type=password]{
+
+	height: 30px;
+	width: 410px;
+	padding: 15px;
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	font-size: 14px;
+
+}
+
+.parte2 .for2 h2{
+
+	color: #12092F;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+.parte2 .for2 .ddd{
+
+	margin-top: 10px;
+	display: flex;
+}
+
+.parte2 .for2 .ddd .s1{
+
+	margin-right: 3px;
+}
+
+
+.parte2 .for2 .ddd .s1 select{
+	border: 1px solid #C9C9C9;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+
+.parte2 .for2 .ddd2{
+	margin-top: 15px;
+	display: flex;
+}
+
+
+.parte2 .for2 .ddd2 h3{
+	font-weight: normal;
+	font-size: 16px;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+.parte2 .for2 .ddd3{
+
+	margin-top: 10px;
+}
+
+.parte2 .for2 .ddd3 p{
+	width: 400px;
+	font-size: 14px;
+	color: #A9A9A9;
+}
+
+.parte2 .for2 .ddd3 p span{
+
+	color: #1877F2;
+}
+
+.parte2 .for2 .ddd3 .bb1{
+	margin-top: 15px;
+	display: flex;
+}
+
+.parte2 .for2 .ddd3 .bb1 input[type=button]{
+
+	
+	background: linear-gradient(#67ae55,#578843);
+	color: white;
+    cursor: pointer;
+    border:0;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+
+footer{
+	clear: both;
+	padding: 30px;
+	align-items: center;
+	width: 100%;
+	float: left;
+	background: white;
+}
+
+footer .c1 a{
+
+	text-decoration: none;
+	margin-right: 30px;
+	color:#A9A9A9;
+}
+
+body{
+	background: linear-gradient(white, #D3D8E8);
+}
+
+
+@media (max-width: 1024px){
+
+	.imagen{
+		display: none;
+	}
+
+
+
+
+
+	
+}
+
+
+@media (max-width: 620px){
+
+		section .container2{
+
+		height: 50%;
+		display: flex;
+		flex-direction: row;
+
+		align-items: center;
+		justify-content: flex-start;
+		
+		
+}
+
+		section .child{
+
+			width: 50%;
+			height: 50%;
+}
+
+/**********************************************************************/
+
+.container{
+
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+
+}
+
+header .child2{
+
+	width: 55%;
+	height: 55%;
+}
+
+header .ent{
+
+	margin-right: 80px;
+}
+
+header .ent input[type=submit]{
+
+	padding: 6px 18px;
+}
+
+
+header .form-login input[type=email],
+header .form-login input[type=password]
+{
+
+		padding-right: 60px;
+		padding-left: 60px
+}
+
+footer .espaco{
+
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+/**********************************************************************/
+
+}
+
+
+
+
+
+
+
+
+
